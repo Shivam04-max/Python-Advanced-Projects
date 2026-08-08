@@ -1,7 +1,7 @@
 from typing import Final
 import requests
 
-API_KEY: Final[str] = '911106abaab85d061cb8409737d42b47'
+API_KEY: Final[str] = ''
 BASE_URL: Final[str] = 'https://cutt.ly/api/api.php'
 
 def shronten_link(full_link: str):
