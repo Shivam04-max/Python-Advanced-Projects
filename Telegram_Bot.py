@@ -2,8 +2,8 @@ from typing import Final
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN: Final[str] = '8834949891:AAEEFTzeZApENtdmTbAsRPmATmRWwdRsXgE'
-BOT_USERNAME: Final[str] = '@ShivamHiray_Bot'
+TOKEN: Final[str] = ''
+BOT_USERNAME: Final[str] = ''
 
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text('Hello, there! Nice to meet you. Lets\'s chat!')
