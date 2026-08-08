@@ -19,7 +19,7 @@ class MyQR:
             
     def main():
         myqr = MyQR(size=30, padding=2)
-        myqr.create_qr("sample2.png", fg="black", bg="white")
+        myqr.create_qr("sample.png", fg="black", bg="white")
         
 if __name__ == '__main__':
     MyQR.main()
