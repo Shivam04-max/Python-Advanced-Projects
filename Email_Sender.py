@@ -8,8 +8,8 @@ from email import encoders
 
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-SENDER_EMAIL = "hireshivam514@gmail.com"
-SENDER_PASSWORD = "fhzxihamyyaavvbq" #app password not email password
+SENDER_EMAIL = ""
+SENDER_PASSWORD = "" #app password not email password
 
 def send_email(to_email, subject, message, image_path=None):
     try:
@@ -39,7 +39,7 @@ def send_email(to_email, subject, message, image_path=None):
         print(f'Error sending email: {e}')
               
 if __name__ == "__main__":
-    recipient_email = "hireshivam38@gmail.com"
+    recipient_email = ""
     email_subject = "Test email with image"
     email_body = "Hello, this is a test email with an attachment!"
     image_path = "sample.png"
