@@ -31,4 +31,4 @@ def run_bot(token: str):
     client.run(token=token)
         
 if __name__ == '__main__':
-    run_bot(token='MTUzMjI3NTUzODMwNjAwNzA5MA.G1HDDi.kNk5t0Sdc3GOBrZNz_Xa8srGPBNaRPBxy9UNO8')
+    run_bot(token='')
