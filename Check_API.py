@@ -1,5 +1,5 @@
 import requests
-request = requests.get('https://learnwithshivamhiray.pythonanywhere.com')
+request = requests.get('')
 data = request.json()
 
 print(data)
